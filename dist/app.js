@@ -11,7 +11,7 @@ const projects=[
   },
   {
     "id": "lost-found-afar",
-    "title": "远方的失物",
+    "title": "AI动画短片工业化制作 Workflow & Asset Bible 建设方案",
     "category": "AI 短片 / 影像叙事",
     "description": "远方的失物 AI 动画短片与创作工作流。",
     "href": "project-lost-found.html",
@@ -35,9 +35,9 @@ const projects=[
     "category": "节日营销 / 视觉创意",
     "description": "2024 欢笑中国年春节活动视觉设计项目。",
     "href": "project-cny2024.html",
-    "cover": "assets/projects/cny2024/1.webp",
+    "cover": "assets/projects/cny2024/cover-theme.webp",
     "width": 2400,
-    "height": 2417
+    "height": 1854
   },
   {
     "id": "eb2025",
@@ -120,14 +120,14 @@ const projects=[
     "height": 2769
   },
   {
-    "id": "annual-report",
-    "title": "抖音年度报告",
-    "category": "年度报告 / H5 视觉",
-    "description": "抖音年度报告 H5 视觉设计项目。",
-    "href": "project-annual-report.html",
-    "cover": "assets/projects/annual-report/za1-cover.webp",
-    "width": 1228,
-    "height": 1500
+    "id": "douyin-zaizai",
+    "title": "抖音仔仔—— 3D角色：视觉基准与 Asset Bible",
+    "category": "3D 角色 / 视觉资产规范",
+    "description": "抖音仔仔 3D 角色视觉基准与资产规范。",
+    "href": "project-zaizai.html",
+    "cover": "assets/projects/douyin-zaizai/cover.webp",
+    "width": 2400,
+    "height": 1350
   },
   {
     "id": "douyin-summer",
@@ -140,14 +140,14 @@ const projects=[
     "height": 1350
   },
   {
-    "id": "douyin-zaizai",
-    "title": "抖音仔仔—— 3D角色：视觉基准与 Asset Bible",
-    "category": "3D 角色 / 视觉资产规范",
-    "description": "抖音仔仔 3D 角色视觉基准与资产规范。",
-    "href": "project-zaizai.html",
-    "cover": "assets/projects/douyin-zaizai/cover.webp",
-    "width": 2400,
-    "height": 1350
+    "id": "annual-report",
+    "title": "抖音年度报告",
+    "category": "年度报告 / H5 视觉",
+    "description": "抖音年度报告 H5 视觉设计项目。",
+    "href": "project-annual-report.html",
+    "cover": "assets/projects/annual-report/za1-cover.webp",
+    "width": 1228,
+    "height": 1500
   }
 ];
 const projectHeights={forma:1180,still:760,echo:1200,mono:1000,field:860,void:780};
