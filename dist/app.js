@@ -145,9 +145,9 @@ const projects=[
     "category": "年度报告 / H5 视觉",
     "description": "抖音年度报告 H5 视觉设计项目。",
     "href": "project-annual-report.html",
-    "cover": "assets/projects/annual-report/za1-cover.webp",
+    "cover": "assets/projects/annual-report/cover-2021.webp",
     "width": 1228,
-    "height": 1500
+    "height": 1401
   }
 ];
 const projectHeights={forma:1180,still:760,echo:1200,mono:1000,field:860,void:780};
