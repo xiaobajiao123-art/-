@@ -146,8 +146,8 @@
 :root[data-layout] .image-stage{display:block}
 :root[data-layout] .image-stage .seed{position:absolute;height:auto;max-height:none;margin:0;object-fit:contain}
 :root[data-layout] .image-stage .seed-one{width:31%;left:30%;top:36%;transform:rotate(-2deg);z-index:5}
-:root[data-layout] .image-stage .seed-two{width:45%;left:2%;top:67%;transform:rotate(-9deg);z-index:4}
-:root[data-layout] .image-stage .seed-three{width:22%;left:4%;top:26%;transform:rotate(-10deg);z-index:3}
-:root[data-layout] .image-stage .seed-four{width:23%;left:53%;top:20%;transform:rotate(8deg);z-index:2}
-:root[data-layout] .image-stage .seed-five{width:30%;left:64%;top:48%;transform:rotate(6deg);z-index:1}
+:root[data-layout] .image-stage .seed-two{width:45%;left:4%;top:70%;transform:rotate(-7deg);z-index:4}
+:root[data-layout] .image-stage .seed-three{width:18%;left:7%;top:28%;transform:rotate(-9deg);z-index:3}
+:root[data-layout] .image-stage .seed-four{width:18.5%;left:62%;top:22%;transform:rotate(7deg);z-index:2}
+:root[data-layout] .image-stage .seed-five{width:24.5%;left:71%;top:65%;transform:rotate(5deg);z-index:1}
 @media(max-width:760px){:root[data-layout] .image-stage{left:5%;top:7%;width:min(88%,360px);height:41%}}
