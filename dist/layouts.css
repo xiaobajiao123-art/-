@@ -142,11 +142,12 @@
 :root[data-layout] #projects.masonry{position:relative;display:block;columns:auto}
 :root[data-layout] #projects .project{position:absolute;margin:0;column-span:none}
 :root[data-layout] #projects .project img{height:auto;max-height:none}
-/* Four uploaded images compose the hero when the pointer trail is idle. */
+/* Idle collage: image 1 is foremost, descending to image 5 at the back. */
 :root[data-layout] .image-stage{display:block}
 :root[data-layout] .image-stage .seed{position:absolute;height:auto;max-height:none;margin:0;object-fit:contain}
-:root[data-layout] .image-stage .seed-one{width:27%;left:6%;top:32%;transform:rotate(-10deg);z-index:1}
-:root[data-layout] .image-stage .seed-two{width:23%;left:47%;top:22%;transform:rotate(8deg);z-index:2}
-:root[data-layout] .image-stage .seed-three{width:40%;left:12%;top:62%;transform:rotate(-5deg);z-index:3}
-:root[data-layout] .image-stage .seed-four{width:30%;left:58%;top:45%;transform:rotate(5deg);z-index:4}
-@media(max-width:760px){:root[data-layout] .image-stage{left:5%;top:7%;width:88%;height:41%}:root[data-layout] .image-stage .seed-one{width:25%;left:5%;top:29%;transform:rotate(-10deg)}:root[data-layout] .image-stage .seed-two{width:23%;left:48%;top:24%;transform:rotate(8deg)}:root[data-layout] .image-stage .seed-three{width:42%;left:12%;top:64%;transform:rotate(-4deg)}:root[data-layout] .image-stage .seed-four{width:30%;left:57%;top:44%;transform:rotate(5deg)}}
+:root[data-layout] .image-stage .seed-one{width:31%;left:30%;top:36%;transform:rotate(-2deg);z-index:5}
+:root[data-layout] .image-stage .seed-two{width:45%;left:2%;top:67%;transform:rotate(-9deg);z-index:4}
+:root[data-layout] .image-stage .seed-three{width:22%;left:4%;top:26%;transform:rotate(-10deg);z-index:3}
+:root[data-layout] .image-stage .seed-four{width:23%;left:53%;top:20%;transform:rotate(8deg);z-index:2}
+:root[data-layout] .image-stage .seed-five{width:30%;left:64%;top:48%;transform:rotate(6deg);z-index:1}
+@media(max-width:760px){:root[data-layout] .image-stage{left:5%;top:7%;width:min(88%,360px);height:41%}}

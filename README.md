@@ -27,7 +27,7 @@ python3 -m http.server 8000 --directory dist
 
 - 项目顺序、标题和封面：`dist/app.js` 中的 `projects`。
 - 项目详情：`dist/project-*.html`。
-- 首页布局和四张静止图片：`dist/index.html`、`dist/layouts.css`。
+- 首页布局和五张静止图片：`dist/index.html`、`dist/layouts.css`。
 - 两列瀑布流排列：`dist/project-grid.js`。
 - 项目详情公共宽度和样式：`dist/case.css`。
 - 项目媒体：`dist/assets/projects/`。
