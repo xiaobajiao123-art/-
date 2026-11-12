@@ -1,0 +1,37 @@
+[
+  {
+    "number": 1,
+    "kind": "image",
+    "src": "assets/projects/douyin-summer/1.webp",
+    "width": 2400,
+    "height": 1350
+  },
+  {
+    "number": 2,
+    "kind": "image",
+    "src": "assets/projects/douyin-summer/2.webp",
+    "width": 2400,
+    "height": 2192
+  },
+  {
+    "number": 3,
+    "kind": "image",
+    "src": "assets/projects/douyin-summer/3.webp",
+    "width": 2400,
+    "height": 2368
+  },
+  {
+    "number": 4,
+    "kind": "image",
+    "src": "assets/projects/douyin-summer/4.webp",
+    "width": 2400,
+    "height": 2658
+  },
+  {
+    "number": 5,
+    "kind": "image",
+    "src": "assets/projects/douyin-summer/5.webp",
+    "width": 2400,
+    "height": 2517
+  }
+]

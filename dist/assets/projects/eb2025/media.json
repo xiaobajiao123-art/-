@@ -1,0 +1,96 @@
+[
+  {
+    "number": 1,
+    "kind": "image",
+    "src": "assets/projects/eb2025/1.webp",
+    "width": 2400,
+    "height": 2824
+  },
+  {
+    "number": 2,
+    "kind": "image",
+    "src": "assets/projects/eb2025/2.webp",
+    "width": 2400,
+    "height": 849
+  },
+  {
+    "number": 3,
+    "kind": "image",
+    "src": "assets/projects/eb2025/3.webp",
+    "width": 2400,
+    "height": 1221
+  },
+  {
+    "number": 4,
+    "kind": "image",
+    "src": "assets/projects/eb2025/4.webp",
+    "width": 2400,
+    "height": 754
+  },
+  {
+    "number": 5,
+    "kind": "image",
+    "src": "assets/projects/eb2025/5.webp",
+    "width": 2400,
+    "height": 1591
+  },
+  {
+    "number": 6,
+    "kind": "video",
+    "src": "assets/projects/eb2025/6.mp4",
+    "poster": "assets/projects/eb2025/6-poster.webp",
+    "width": 1540,
+    "height": 1080
+  },
+  {
+    "number": 7,
+    "kind": "image",
+    "src": "assets/projects/eb2025/7.webp",
+    "width": 2400,
+    "height": 1416
+  },
+  {
+    "number": 8,
+    "kind": "image",
+    "src": "assets/projects/eb2025/8.webp",
+    "width": 2400,
+    "height": 1794
+  },
+  {
+    "number": 9,
+    "kind": "video",
+    "src": "assets/projects/eb2025/9.mp4",
+    "poster": "assets/projects/eb2025/9-poster.webp",
+    "width": 1540,
+    "height": 1080
+  },
+  {
+    "number": 10,
+    "kind": "image",
+    "src": "assets/projects/eb2025/10.webp",
+    "width": 2400,
+    "height": 1416
+  },
+  {
+    "number": 11,
+    "kind": "video",
+    "src": "assets/projects/eb2025/11.mp4",
+    "poster": "assets/projects/eb2025/11-poster.webp",
+    "width": 1540,
+    "height": 1080
+  },
+  {
+    "number": 12,
+    "kind": "image",
+    "src": "assets/projects/eb2025/12.webp",
+    "width": 2400,
+    "height": 2711
+  },
+  {
+    "number": 13,
+    "kind": "image",
+    "src": "assets/projects/eb2025/13.webp",
+    "width": 2400,
+    "height": 934
+  }
+]

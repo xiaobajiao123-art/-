@@ -1,0 +1,130 @@
+[
+  {
+    "number": "1",
+    "kind": "image",
+    "src": "assets/projects/douyin-newyear/1.webp",
+    "width": 2400,
+    "height": 1350
+  },
+  {
+    "number": "2",
+    "kind": "image",
+    "src": "assets/projects/douyin-newyear/2.webp",
+    "width": 2400,
+    "height": 996
+  },
+  {
+    "number": "3",
+    "kind": "image",
+    "src": "assets/projects/douyin-newyear/3.webp",
+    "width": 2400,
+    "height": 1301
+  },
+  {
+    "number": "4",
+    "kind": "image",
+    "src": "assets/projects/douyin-newyear/4.webp",
+    "width": 2400,
+    "height": 474
+  },
+  {
+    "number": "5-1",
+    "kind": "image",
+    "src": "assets/projects/douyin-newyear/5-1.webp",
+    "width": 2400,
+    "height": 2913
+  },
+  {
+    "number": "5-2",
+    "kind": "video",
+    "src": "assets/projects/douyin-newyear/5-2.mp4",
+    "poster": "assets/projects/douyin-newyear/5-2-poster.webp",
+    "width": 834,
+    "height": 1112
+  },
+  {
+    "number": "6",
+    "kind": "video",
+    "src": "assets/projects/douyin-newyear/6.mp4",
+    "poster": "assets/projects/douyin-newyear/6-poster.webp",
+    "width": 1654,
+    "height": 1080
+  },
+  {
+    "number": "7",
+    "kind": "image",
+    "src": "assets/projects/douyin-newyear/7.webp",
+    "width": 2400,
+    "height": 1330
+  },
+  {
+    "number": "8",
+    "kind": "image",
+    "src": "assets/projects/douyin-newyear/8.webp",
+    "width": 2400,
+    "height": 1894
+  },
+  {
+    "number": "9",
+    "kind": "image",
+    "src": "assets/projects/douyin-newyear/9.webp",
+    "width": 2400,
+    "height": 1610
+  },
+  {
+    "number": "10",
+    "kind": "image",
+    "src": "assets/projects/douyin-newyear/10.webp",
+    "width": 2400,
+    "height": 1485
+  },
+  {
+    "number": "11",
+    "kind": "image",
+    "src": "assets/projects/douyin-newyear/11.webp",
+    "width": 2400,
+    "height": 1450
+  },
+  {
+    "number": "12",
+    "kind": "youtube",
+    "id": "71gcXWKtoW0",
+    "width": 16,
+    "height": 9
+  },
+  {
+    "number": "13",
+    "kind": "image",
+    "src": "assets/projects/douyin-newyear/13.webp",
+    "width": 2400,
+    "height": 1608
+  },
+  {
+    "number": "14",
+    "kind": "image",
+    "src": "assets/projects/douyin-newyear/14.webp",
+    "width": 2400,
+    "height": 1600
+  },
+  {
+    "number": "15",
+    "kind": "image",
+    "src": "assets/projects/douyin-newyear/15.webp",
+    "width": 2400,
+    "height": 1650
+  },
+  {
+    "number": "16",
+    "kind": "image",
+    "src": "assets/projects/douyin-newyear/16.webp",
+    "width": 2400,
+    "height": 1793
+  },
+  {
+    "number": "17",
+    "kind": "image",
+    "src": "assets/projects/douyin-newyear/17.webp",
+    "width": 2400,
+    "height": 948
+  }
+]

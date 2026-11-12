@@ -1,0 +1,152 @@
+.layout-switcher{height:43px;position:fixed;inset:0 0 auto;z-index:60;background:#161a12f5;border-bottom:1px solid #87936f44;display:flex;align-items:center;justify-content:space-between;padding:0 28px;font-family:Arial,'Noto Sans SC',sans-serif;font-size:10px;backdrop-filter:blur(12px)}.layout-switcher>div{display:flex;gap:6px;align-self:stretch}.layout-switcher [data-layout-choice]{display:flex;align-items:center;gap:8px;padding:0 20px;color:#8c987c;border-bottom:2px solid transparent}.layout-switcher [aria-current]{color:#d3e7ae;border-color:var(--green);background:#b8ce870b}.compare-back{color:var(--green)}.preview-label{font-size:8px;letter-spacing:1.5px;color:#6f7b60}.navigation{top:43px}.embedded-preview .layout-switcher{display:none}.embedded-preview .navigation{top:0}.embedded-preview{scroll-behavior:auto}.embedded-preview .chapter{scroll-margin-top:0}html{scroll-padding-top:60px}
+/* A — generous margins, a quiet two-column editorial rhythm */
+[data-layout=a] .navigation{margin:0 5.5%;height:100px}
+[data-layout=a] .hero-text{width:47%;right:5.5%;top:35%}
+[data-layout=a] h1{font-weight:600;font-size:13.7vw;letter-spacing:-.08em}
+[data-layout=a] .eyebrow{margin-bottom:32px}
+[data-layout=a] .name-en{letter-spacing:.55em;font-size:10px;margin-top:28px}
+[data-layout=a] .intro{line-height:2.4;margin-top:36px;font-size:12px}
+[data-layout=a] .image-stage{left:3%;width:44%}
+[data-layout=a] .seed-one{width:29%;left:4%;top:35%;transform:rotate(-10deg)}
+[data-layout=a] .seed-two{width:42%;left:39%;top:29%;transform:rotate(7deg)}
+[data-layout=a] .seed-three{width:39%;left:36%;top:47%;transform:rotate(-4deg)}
+[data-layout=a] .hero-bottom{left:5.5%;right:5.5%}
+[data-layout=a] .section-heading{margin:0 5.5%;padding:95px 0 35px}
+[data-layout=a] .section-heading h2{font-size:31px;font-weight:400;letter-spacing:-1px}
+[data-layout=a] .section-heading h2 span{font-size:10px;letter-spacing:1px}
+[data-layout=a] .masonry{padding:0 5.5%;column-gap:4px}
+[data-layout=a] footer{padding:45px 5.5% 28px;background:#b8ce87}
+/* B — oversized typography, full-bleed imagery, wide horizontal chapters */
+[data-layout=b] .navigation{margin:0 32px;border-bottom:0}
+[data-layout=b] .nav-role{margin-left:45px}
+[data-layout=b] .hero{height:100svh;min-height:850px}
+[data-layout=b] .hero-text{top:27%;right:3%;width:66%}
+[data-layout=b] h1{font-size:20.1vw;font-weight:900;letter-spacing:-.09em;line-height:1.16}
+[data-layout=b] .eyebrow{margin-left:9px;font-size:11px;margin-bottom:8px}
+[data-layout=b] .name-en{font-size:11px;letter-spacing:1em;margin-top:25px}
+[data-layout=b] .intro{margin:40px 3% 0 auto;width:max-content;max-width:100%;font-size:12px;line-height:2.2}
+[data-layout=b] .image-stage{width:28%;left:2%;top:11%}
+[data-layout=b] .seed-one{width:70%;left:2%;top:41%;transform:rotate(-13deg)}
+[data-layout=b] .seed-two{width:68%;left:14%;top:15%;transform:rotate(8deg)}
+[data-layout=b] .seed-three{width:74%;left:17%;top:34%;transform:rotate(-4deg)}
+[data-layout=b] .hero-bottom{left:32px;right:32px}
+[data-layout=b] .section-heading{margin:0 8px;padding:70px 25px 40px}
+[data-layout=b] .section-heading h2{font-size:6.4vw;font-weight:700;line-height:1;letter-spacing:-.065em}
+[data-layout=b] .section-heading h2 span{font-size:12px;font-weight:400;letter-spacing:0}
+[data-layout=b] .masonry{padding:0 8px}
+[data-layout=b] .project:first-child{column-span:all;margin-bottom:4px}
+[data-layout=b] .project:first-child img{height:58vw;max-height:850px;object-fit:cover;object-position:center 46%}
+[data-layout=b] .project-overlay{opacity:1;transform:none}
+:is([data-layout=a],[data-layout=b]) .chapter{display:block;margin:0 32px;padding:95px 0}
+:is([data-layout=a],[data-layout=b]) .chapter-heading{display:flex;justify-content:space-between;align-items:end;border-bottom:1px solid #455137;padding-bottom:30px;margin-bottom:55px}
+:is([data-layout=a],[data-layout=b]) .chapter-heading h2{font-size:clamp(25px,5.9vw,110px);font-weight:700;letter-spacing:-.055em;gap:25px;line-height:1}
+:is([data-layout=a],[data-layout=b]) .chapter-heading h2>span{font-size:13px;letter-spacing:0;align-self:start;padding-top:4px}
+:is([data-layout=a],[data-layout=b]) .chapter-zh{margin:0;font-size:11px;letter-spacing:2px}
+:is([data-layout=a],[data-layout=b]) .chapter-body{max-width:none}
+:is([data-layout=a],[data-layout=b]) .about-lead{font-size:5.65vw;font-weight:600;letter-spacing:-.06em;margin-bottom:32px;line-height:1.4}
+:is([data-layout=a],[data-layout=b]) .about-chapter .chapter-intro{margin-left:48%;max-width:580px;font-size:14px;line-height:2.2}
+:is([data-layout=a],[data-layout=b]) .strength-summary{margin:45px 0 60px 48%;max-width:580px}
+:is([data-layout=a],[data-layout=b]) .strength-list{display:grid;grid-template-columns:repeat(3,1fr);gap:45px}
+:is([data-layout=a],[data-layout=b]) .strength-row{display:block;padding:32px 0 0}
+:is([data-layout=a],[data-layout=b]) .strength-row h3{font-size:23px;letter-spacing:-.5px;margin-bottom:26px}
+:is([data-layout=a],[data-layout=b]) .strength-row h3 small{font-size:9px;margin-top:14px}
+:is([data-layout=a],[data-layout=b]) .career-header{display:grid;grid-template-columns:1fr 2fr;gap:0 35px;align-items:baseline}
+:is([data-layout=a],[data-layout=b]) .career-date{font-size:18px}
+:is([data-layout=a],[data-layout=b]) .career-header h3{font-size:5.7vw;margin-top:0}
+:is([data-layout=a],[data-layout=b]) .career-header h3>span{display:inline;font-size:16px;margin-left:35px}
+:is([data-layout=a],[data-layout=b]) .career-header>p{grid-column:2}
+:is([data-layout=a],[data-layout=b]) .experience-chapter .chapter-intro{margin:0 0 50px 35%;font-size:14px;max-width:640px}
+:is([data-layout=a],[data-layout=b]) .experience-list{margin:0}
+:is([data-layout=a],[data-layout=b]) .experience-row{grid-template-columns:1fr 2fr;gap:35px;padding:40px 0}
+:is([data-layout=a],[data-layout=b]) .row-number{font-size:57px;font-weight:400;letter-spacing:-5px;color:var(--green);padding:0;line-height:1}
+:is([data-layout=a],[data-layout=b]) .experience-row h4{font-size:27px;margin-bottom:22px}
+:is([data-layout=a],[data-layout=b]) .experience-row p,:is([data-layout=a],[data-layout=b]) .experience-row li{font-size:13px;max-width:720px}
+:is([data-layout=a],[data-layout=b]) .skills-lead{font-size:5vw;font-weight:500;margin-bottom:65px}
+:is([data-layout=a],[data-layout=b]) .skill-group{display:grid;grid-template-columns:1fr 2fr;gap:35px;padding:30px 0}
+:is([data-layout=a],[data-layout=b]) .skill-group h3{margin-top:12px}
+:is([data-layout=a],[data-layout=b]) .skill-group h3 span{display:block;margin:12px 0 0}
+:is([data-layout=a],[data-layout=b]) .skill-tags{gap:15px 25px}
+:is([data-layout=a],[data-layout=b]) .skill-tags li{border:0;padding:0;font-size:clamp(20px,2.35vw,38px);letter-spacing:-.7px;line-height:1.6}
+[data-layout=b] footer{background:var(--bg);border-top:1px solid #455137;color:var(--green);padding:40px 32px 24px}
+[data-layout=b] .contact-email{padding:95px 0 110px;font-size:6.2vw;font-weight:500}
+[data-layout=b] .footer-bottom{border-color:#455137}
+/* C — an indexed grid, compact project wall and résumé-like reading */
+[data-layout=c] .navigation{height:83px;margin:0 28px}
+[data-layout=c] .nav-role{margin-left:60px}
+[data-layout=c] .hero{height:88svh;min-height:730px;border-bottom:1px solid #3d4634;margin:0 28px}
+[data-layout=c] .hero-text{top:29%;right:0;width:57%;padding:0 0 0 5%;border-left:1px solid #435035}
+[data-layout=c] h1{font-size:14.8vw;font-weight:700;letter-spacing:-.09em}
+[data-layout=c] .eyebrow{font-size:9px;letter-spacing:1.4px;margin-bottom:27px}
+[data-layout=c] .name-en{font-size:9px;letter-spacing:.7em;margin-top:20px}
+[data-layout=c] .intro{font-size:11px;margin-top:35px;line-height:2.1}
+[data-layout=c] .image-stage{width:37%;left:0;top:17%;height:58%;display:grid;grid-template-columns:repeat(3,1fr);gap:4px;align-items:center}
+[data-layout=c] .seed{position:relative;left:auto;top:auto;width:100%;transform:none;box-shadow:none;max-height:100%;object-fit:cover}
+[data-layout=c] .seed-one{margin-top:90px}
+[data-layout=c] .seed-two{margin-top:-70px}
+[data-layout=c] .seed-three{margin-top:170px}
+[data-layout=c] .hero-bottom{left:0;right:0}
+[data-layout=c] .section-heading{padding:50px 0 25px;margin:0 28px;border:0}
+[data-layout=c] .section-heading h2{font-size:18px}
+[data-layout=c] .masonry{columns:3;padding:0 28px;column-gap:4px}
+[data-layout=c] .project-overlay{opacity:1;transform:none;padding:40px 15px 16px}
+[data-layout=c] .project-overlay h3{font-size:20px}
+[data-layout=c] .project-overlay small{font-size:9px}
+[data-layout=c] .work-caption{padding:20px 28px}
+[data-layout=c] .chapter{margin:0 28px;padding:65px 0;grid-template-columns:200px 1fr;column-gap:45px}
+[data-layout=c] .chapter-heading{position:sticky;top:70px;align-self:start}
+[data-layout=c] .chapter-heading h2{font-size:11px;letter-spacing:1px}
+[data-layout=c] .chapter-body{max-width:none}
+[data-layout=c] .about-lead{font-size:3.3vw;line-height:1.45;font-weight:500;margin-bottom:24px}
+[data-layout=c] .about-chapter .chapter-body{display:grid;grid-template-columns:1fr 1fr;column-gap:40px}
+[data-layout=c] .about-lead{grid-row:1/3}
+[data-layout=c] .chapter-intro{font-size:12px;line-height:2.1}
+[data-layout=c] .strength-summary{font-size:11px;margin:0 0 30px}
+[data-layout=c] .strength-list{grid-column:1/-1;display:grid;grid-template-columns:repeat(3,1fr);gap:25px}
+[data-layout=c] .strength-row{display:block;padding:24px 0 0}
+[data-layout=c] .strength-row h3{font-size:16px;margin-bottom:18px}
+[data-layout=c] .strength-row h3 small{font-size:7px}
+[data-layout=c] .strength-row p{font-size:11px;line-height:2}
+[data-layout=c] .career-header{display:flex;align-items:baseline;flex-wrap:wrap;gap:12px 30px}
+[data-layout=c] .career-date{font-size:10px}
+[data-layout=c] .career-header h3{font-size:32px;margin:0 0 18px}
+[data-layout=c] .career-header h3>span{display:inline;font-size:12px;margin-left:20px}
+[data-layout=c] .career-header>p{width:100%;font-size:10px;margin-bottom:20px}
+[data-layout=c] .experience-list{display:grid;grid-template-columns:1fr 1fr;gap:0 30px;margin-top:32px}
+[data-layout=c] .experience-row{grid-template-columns:25px 1fr;gap:10px;padding:24px 0 32px}
+[data-layout=c] .experience-row h4{font-size:16px}
+[data-layout=c] .experience-row p,[data-layout=c] .experience-row li{font-size:11px;line-height:2}
+[data-layout=c] .skills-lead{font-size:30px;margin-bottom:30px}
+[data-layout=c] .skill-group{display:grid;grid-template-columns:155px 1fr;gap:15px;padding:20px 0}
+[data-layout=c] .skill-group h3{font-size:11px;line-height:1.8;margin:7px 0}
+[data-layout=c] .skill-group h3 span{display:block;margin:4px 0 0;font-size:7px}
+[data-layout=c] .skill-tags{gap:6px}
+[data-layout=c] .skill-tags li{font-size:10px;padding:8px 11px}
+[data-layout=c] footer{background:#11150e;color:var(--fg);border-top:1px solid #435035;padding:35px 28px 22px}
+[data-layout=c] .footer-top{color:#9aa88b}
+[data-layout=c] .contact-email{font-size:4.5vw;padding:55px 0 65px;color:var(--green)}
+[data-layout=c] .footer-bottom{border-color:#435035}
+/* Refined A: editorial opening with poster-style profile chapters. */
+[data-layout=a] .chapter{margin-left:5.5%;margin-right:5.5%}
+[data-layout=a] .image-stage{width:min(44%,650px);height:60%;top:6%}
+[data-layout=a] .hero>.intro-left{position:absolute;left:5.5%;bottom:130px;width:40%;max-width:420px;margin:0;text-align:left;z-index:5;pointer-events:none;line-height:2.4;font-size:12px}
+@media(max-width:1000px) and (min-width:761px){[data-layout=c] .chapter{grid-template-columns:155px 1fr;column-gap:25px}[data-layout=c] .about-chapter .chapter-body{column-gap:20px}[data-layout=c] .strength-list{gap:15px}[data-layout=c] .experience-list{gap:0 20px}}
+@media(max-width:760px){.layout-switcher{padding:0 15px;font-size:10px}.layout-switcher [data-layout-choice]{padding:0 12px}.layout-switcher [data-layout-choice] span,.preview-label{display:none}.navigation{top:43px}.embedded-preview .navigation{top:0}[data-layout] .navigation{height:78px;margin:0 20px}[data-layout] .nav-role{display:none}[data-layout] .hero{min-height:800px;height:920px;max-height:none}[data-layout] .hero-text{top:48%;right:6%;width:88%;border:0;padding:0}[data-layout] h1{font-size:27vw}[data-layout] .eyebrow{font-size:8px;margin:0 0 20px;letter-spacing:1.5px}[data-layout] .name-en{font-size:9px;letter-spacing:.5em;margin:19px 0 0 5px}[data-layout] .intro{font-size:11px;line-height:2.25;margin:28px 0 0 5px;width:auto}[data-layout] .image-stage{left:5%;top:7%;width:88%;height:41%;display:block}[data-layout] .seed{position:absolute;box-shadow:0 15px 50px #0005;margin:0;max-height:none}[data-layout] .seed-one{width:24%;left:12%;top:34%;transform:rotate(-12deg)}[data-layout] .seed-two{width:34%;left:39%;top:23%;transform:rotate(8deg)}[data-layout] .seed-three{width:29%;left:44%;top:43%;transform:rotate(-4deg)}[data-layout] .hero-bottom{left:22px;right:22px}[data-layout] .section-heading{margin:0 20px;padding:55px 0 25px}[data-layout] .section-heading h2{font-size:24px}[data-layout] .section-heading h2 span{font-size:9px;display:block;margin:10px 0 0}[data-layout] .masonry{padding:0 4px;columns:2;column-gap:4px}[data-layout] .chapter{display:block;margin:0 22px;padding:65px 0}[data-layout] .chapter-heading{display:flex;position:static;justify-content:space-between;align-items:center;margin-bottom:35px;padding:0;border:0}[data-layout] .chapter-heading h2{font-size:11px;letter-spacing:1px;gap:12px;line-height:1.5;font-weight:400}[data-layout] .chapter-heading h2>span{font-size:10px;padding:0}[data-layout] .chapter-zh{font-size:9px;margin:0}[data-layout] .chapter-body{display:block}[data-layout] .about-lead{font-size:31px;line-height:1.55;letter-spacing:-1px;margin-bottom:27px}[data-layout] .chapter-intro{margin:0 0 28px;font-size:12px;line-height:2.2}[data-layout] .strength-summary{margin:0 0 35px;font-size:11px}[data-layout] .strength-list{display:block}[data-layout] .strength-row{display:block;padding:25px 0}[data-layout] .strength-row h3{font-size:16px;margin-bottom:16px}[data-layout] .strength-row h3 small{display:block;font-size:8px;letter-spacing:1px;margin:9px 0 0}[data-layout] .strength-row p{font-size:12px;line-height:2.1}[data-layout] .career-header{display:block}[data-layout] .career-header h3{font-size:35px;margin:20px 0}[data-layout] .career-header h3>span{display:block;font-size:12px;margin:16px 0 0}[data-layout] .career-date{font-size:11px}[data-layout] .career-header>p{font-size:10px;line-height:2;margin:0 0 25px}[data-layout] .experience-list{display:block;margin-top:30px}[data-layout] .experience-row{grid-template-columns:26px 1fr;gap:10px;padding:27px 0;border-left:0;border-top:1px solid #ffffff25}[data-layout] .experience-row:before{display:none}[data-layout] .row-number{font-size:10px;letter-spacing:0;line-height:1.5;padding-top:4px}[data-layout] .experience-row h4{font-size:17px;margin-bottom:16px}[data-layout] .experience-row p,[data-layout] .experience-row li{font-size:12px;line-height:2.1}[data-layout] .skills-lead{font-size:29px;margin:0 0 35px}[data-layout] .skill-group{display:block;padding:24px 0}[data-layout] .skill-group h3{font-size:11px;margin:0 0 20px}[data-layout] .skill-group h3 span{display:inline;margin:0 0 0 12px;font-size:7px}[data-layout] .skill-tags{gap:8px}[data-layout] .skill-tags li{font-size:11px;padding:9px 12px;margin:0;border:1px solid #4a543e;letter-spacing:0}[data-layout] footer{padding:30px 22px 22px}[data-layout] .contact-email{font-size:5.8vw;padding:55px 0 60px}[data-layout=b] .hero-text{top:44%}[data-layout=b] h1{font-size:29vw;font-weight:900}[data-layout=b] .intro{margin-top:38px}[data-layout=b] .section-heading h2{font-size:40px;font-weight:700}[data-layout=b] .project:first-child img{height:100vw;object-fit:cover}:is([data-layout=a],[data-layout=b]) .chapter-heading{display:block;margin-bottom:35px}:is([data-layout=a],[data-layout=b]) .chapter-heading h2{font-size:28px;font-weight:700;letter-spacing:-1px;gap:15px}:is([data-layout=a],[data-layout=b]) .chapter-zh{margin:12px 0 0 30px}:is([data-layout=a],[data-layout=b]) .about-lead{font-size:37px;line-height:1.45}:is([data-layout=a],[data-layout=b]) .experience-row{grid-template-columns:38px 1fr}:is([data-layout=a],[data-layout=b]) .row-number{font-size:23px;letter-spacing:-1px;padding-top:0}:is([data-layout=a],[data-layout=b]) .skill-tags li{border:0;font-size:21px;padding:0;line-height:1.8;margin-right:14px}[data-layout=c] .hero{margin:0 20px;height:820px;min-height:800px}[data-layout=c] .hero-text{right:0;width:100%;top:48%}[data-layout=c] h1{font-size:28vw}[data-layout=c] .hero-bottom{left:0;right:0}[data-layout=c] .image-stage{left:0;top:18%;height:24%;width:100%;display:grid;grid-template-columns:repeat(3,1fr);gap:4px}[data-layout=c] .seed{position:static;transform:none;width:100%;box-shadow:none;margin:0}[data-layout=c] .seed-one{margin-top:30px}[data-layout=c] .seed-two{margin-top:-35px}[data-layout=c] .seed-three{margin-top:50px}[data-layout=c] .chapter{padding:45px 0}[data-layout=c] .about-lead{font-size:28px}[data-layout=c] .strength-row{padding:22px 0}[data-layout=c] .experience-row{padding:23px 0}[data-layout=c] .skill-tags li{font-size:10px;padding:8px 10px}}
+@media(max-width:760px){[data-layout=a] .hero>.intro-left{left:6%;top:73%;bottom:auto;width:88%;max-width:none;margin:0;text-align:left;font-size:11px;line-height:2.25}[data-layout=a] .chapter{margin-left:22px;margin-right:22px}}
+@media(max-width:760px){:is([data-layout=a],[data-layout=b]) .about-chapter .chapter-intro,:is([data-layout=a],[data-layout=b]) .experience-chapter .chapter-intro{margin:0 0 28px;max-width:none;font-size:12px;line-height:2.2}}
+
+/* The profile opens directly with core strengths after the intro moves home. */
+:is([data-layout=a],[data-layout=b]) .about-chapter .strength-summary{margin:0 0 55px;max-width:760px;font-size:15px;line-height:2.1}
+[data-layout=c] .about-chapter .strength-summary{grid-column:1/-1;max-width:760px}
+@media(max-width:760px){:is([data-layout=a],[data-layout=b]) .about-chapter .strength-summary{margin:0 0 35px;font-size:12px;line-height:2.2}}
+/* Read projects left-to-right, retaining their individual cover proportions. */
+:root[data-layout] #projects.masonry{position:relative;display:block;columns:auto}
+:root[data-layout] #projects .project{position:absolute;margin:0;column-span:none}
+:root[data-layout] #projects .project img{height:auto;max-height:none}
+/* Four uploaded images compose the hero when the pointer trail is idle. */
+:root[data-layout] .image-stage{display:block}
+:root[data-layout] .image-stage .seed{position:absolute;height:auto;max-height:none;margin:0;object-fit:contain}
+:root[data-layout] .image-stage .seed-one{width:27%;left:6%;top:32%;transform:rotate(-10deg);z-index:1}
+:root[data-layout] .image-stage .seed-two{width:23%;left:47%;top:22%;transform:rotate(8deg);z-index:2}
+:root[data-layout] .image-stage .seed-three{width:40%;left:12%;top:62%;transform:rotate(-5deg);z-index:3}
+:root[data-layout] .image-stage .seed-four{width:30%;left:58%;top:45%;transform:rotate(5deg);z-index:4}
+@media(max-width:760px){:root[data-layout] .image-stage{left:5%;top:7%;width:88%;height:41%}:root[data-layout] .image-stage .seed-one{width:25%;left:5%;top:29%;transform:rotate(-10deg)}:root[data-layout] .image-stage .seed-two{width:23%;left:48%;top:24%;transform:rotate(8deg)}:root[data-layout] .image-stage .seed-three{width:42%;left:12%;top:64%;transform:rotate(-4deg)}:root[data-layout] .image-stage .seed-four{width:30%;left:57%;top:44%;transform:rotate(5deg)}}

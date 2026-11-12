@@ -1,0 +1,128 @@
+[
+  {
+    "number": 1,
+    "kind": "image",
+    "src": "assets/projects/illustration-library/1.webp",
+    "width": 2400,
+    "height": 2769
+  },
+  {
+    "number": 3,
+    "kind": "image",
+    "src": "assets/projects/illustration-library/3.webp",
+    "width": 2400,
+    "height": 1871
+  },
+  {
+    "number": 4,
+    "kind": "image",
+    "src": "assets/projects/illustration-library/4.webp",
+    "width": 2400,
+    "height": 2343
+  },
+  {
+    "number": 5,
+    "kind": "image",
+    "src": "assets/projects/illustration-library/5.webp",
+    "width": 2400,
+    "height": 1184
+  },
+  {
+    "number": 6,
+    "kind": "image",
+    "src": "assets/projects/illustration-library/6.webp",
+    "width": 2400,
+    "height": 1758
+  },
+  {
+    "number": 7,
+    "kind": "image",
+    "src": "assets/projects/illustration-library/7.webp",
+    "width": 2400,
+    "height": 1615
+  },
+  {
+    "number": 8,
+    "kind": "image",
+    "src": "assets/projects/illustration-library/8.webp",
+    "width": 2400,
+    "height": 2271
+  },
+  {
+    "number": 9,
+    "kind": "image",
+    "src": "assets/projects/illustration-library/9.webp",
+    "width": 2400,
+    "height": 1508
+  },
+  {
+    "number": 10,
+    "kind": "image",
+    "src": "assets/projects/illustration-library/10.webp",
+    "width": 2400,
+    "height": 1644
+  },
+  {
+    "number": 11,
+    "kind": "image",
+    "src": "assets/projects/illustration-library/11.webp",
+    "width": 2400,
+    "height": 1579
+  },
+  {
+    "number": 12,
+    "kind": "image",
+    "src": "assets/projects/illustration-library/12.webp",
+    "width": 2400,
+    "height": 1644
+  },
+  {
+    "number": 13,
+    "kind": "image",
+    "src": "assets/projects/illustration-library/13.webp",
+    "width": 2400,
+    "height": 1921
+  },
+  {
+    "number": 14,
+    "kind": "image",
+    "src": "assets/projects/illustration-library/14.webp",
+    "width": 2400,
+    "height": 1144
+  },
+  {
+    "number": 15,
+    "kind": "image",
+    "src": "assets/projects/illustration-library/15.webp",
+    "width": 2400,
+    "height": 1350
+  },
+  {
+    "number": 16,
+    "kind": "image",
+    "src": "assets/projects/illustration-library/16.webp",
+    "width": 2400,
+    "height": 2008
+  },
+  {
+    "number": 17,
+    "kind": "image",
+    "src": "assets/projects/illustration-library/17.webp",
+    "width": 2400,
+    "height": 2323
+  },
+  {
+    "number": 18,
+    "kind": "image",
+    "src": "assets/projects/illustration-library/18.webp",
+    "width": 2400,
+    "height": 2008
+  },
+  {
+    "number": 19,
+    "kind": "image",
+    "src": "assets/projects/illustration-library/19.webp",
+    "width": 2400,
+    "height": 2264
+  }
+]

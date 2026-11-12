@@ -1,0 +1,51 @@
+[
+  {
+    "number": 1,
+    "kind": "image",
+    "src": "assets/projects/ai-adventure/1-updated.webp",
+    "width": 2400,
+    "height": 1659
+  },
+  {
+    "number": 2,
+    "kind": "image",
+    "src": "assets/projects/ai-adventure/2.webp",
+    "width": 2400,
+    "height": 1701
+  },
+  {
+    "number": 3,
+    "kind": "image",
+    "src": "assets/projects/ai-adventure/3.webp",
+    "width": 2400,
+    "height": 1566
+  },
+  {
+    "number": 4,
+    "kind": "image",
+    "src": "assets/projects/ai-adventure/4.webp",
+    "width": 2400,
+    "height": 1560
+  },
+  {
+    "number": 5,
+    "kind": "image",
+    "src": "assets/projects/ai-adventure/5.webp",
+    "width": 2400,
+    "height": 1640
+  },
+  {
+    "number": 6,
+    "kind": "image",
+    "src": "assets/projects/ai-adventure/6.webp",
+    "width": 2400,
+    "height": 1594
+  },
+  {
+    "number": 7,
+    "kind": "image",
+    "src": "assets/projects/ai-adventure/7.webp",
+    "width": 2400,
+    "height": 1349
+  }
+]

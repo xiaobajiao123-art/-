@@ -1,0 +1,82 @@
+[
+  {
+    "number": 1,
+    "kind": "image",
+    "src": "assets/projects/cny2024/1.webp",
+    "width": 2400,
+    "height": 2417
+  },
+  {
+    "number": 2,
+    "kind": "image",
+    "src": "assets/projects/cny2024/2.webp",
+    "width": 2400,
+    "height": 1370
+  },
+  {
+    "number": 3,
+    "kind": "image",
+    "src": "assets/projects/cny2024/3.webp",
+    "width": 2400,
+    "height": 1749
+  },
+  {
+    "number": 4,
+    "kind": "image",
+    "src": "assets/projects/cny2024/4.webp",
+    "width": 2400,
+    "height": 1924
+  },
+  {
+    "number": 5,
+    "kind": "image",
+    "src": "assets/projects/cny2024/5.webp",
+    "width": 2400,
+    "height": 1368
+  },
+  {
+    "number": 6,
+    "kind": "image",
+    "src": "assets/projects/cny2024/6.webp",
+    "width": 2400,
+    "height": 2152
+  },
+  {
+    "number": 8,
+    "kind": "image",
+    "src": "assets/projects/cny2024/8.webp",
+    "width": 2400,
+    "height": 1743
+  },
+  {
+    "number": 9,
+    "kind": "image",
+    "src": "assets/projects/cny2024/9.webp",
+    "width": 2400,
+    "height": 2477
+  },
+  {
+    "number": 10,
+    "kind": "video",
+    "src": "assets/projects/cny2024/10.mp4",
+    "poster": "assets/projects/cny2024/10-poster.webp",
+    "width": 1080,
+    "height": 1258
+  },
+  {
+    "number": 11,
+    "kind": "video",
+    "src": "assets/projects/cny2024/11.mp4",
+    "poster": "assets/projects/cny2024/11-poster.webp",
+    "width": 1080,
+    "height": 1174
+  },
+  {
+    "number": 12,
+    "kind": "video",
+    "src": "assets/projects/cny2024/12.mp4",
+    "poster": "assets/projects/cny2024/12-poster.webp",
+    "width": 1080,
+    "height": 1174
+  }
+]

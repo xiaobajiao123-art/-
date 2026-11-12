@@ -1,0 +1,37 @@
+[
+  {
+    "number": 1,
+    "kind": "image",
+    "src": "assets/projects/annual-report/1.webp",
+    "width": 2400,
+    "height": 1445
+  },
+  {
+    "number": 2,
+    "kind": "image",
+    "src": "assets/projects/annual-report/2.webp",
+    "width": 2400,
+    "height": 1688
+  },
+  {
+    "number": 3,
+    "kind": "image",
+    "src": "assets/projects/annual-report/3.webp",
+    "width": 2400,
+    "height": 1580
+  },
+  {
+    "number": 4,
+    "kind": "image",
+    "src": "assets/projects/annual-report/4.webp",
+    "width": 2400,
+    "height": 1644
+  },
+  {
+    "number": 5,
+    "kind": "image",
+    "src": "assets/projects/annual-report/5.webp",
+    "width": 2400,
+    "height": 1881
+  }
+]

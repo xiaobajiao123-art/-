@@ -1,0 +1,94 @@
+[
+  {
+    "number": 1,
+    "kind": "image",
+    "src": "assets/projects/douyin-camping/1.webp",
+    "width": 1920,
+    "height": 1288
+  },
+  {
+    "number": 2,
+    "kind": "image",
+    "src": "assets/projects/douyin-camping/2.webp",
+    "width": 1920,
+    "height": 791
+  },
+  {
+    "number": 3,
+    "kind": "image",
+    "src": "assets/projects/douyin-camping/3.webp",
+    "width": 1920,
+    "height": 910
+  },
+  {
+    "number": 4,
+    "kind": "image",
+    "src": "assets/projects/douyin-camping/4.webp",
+    "width": 1920,
+    "height": 843
+  },
+  {
+    "number": 5,
+    "kind": "image",
+    "src": "assets/projects/douyin-camping/5.webp",
+    "width": 1920,
+    "height": 1147
+  },
+  {
+    "number": 6,
+    "kind": "image",
+    "src": "assets/projects/douyin-camping/6.webp",
+    "width": 1920,
+    "height": 1308
+  },
+  {
+    "number": 7,
+    "kind": "image",
+    "src": "assets/projects/douyin-camping/7.webp",
+    "width": 1920,
+    "height": 1217
+  },
+  {
+    "number": 8,
+    "kind": "image",
+    "src": "assets/projects/douyin-camping/8.webp",
+    "width": 1920,
+    "height": 2238
+  },
+  {
+    "number": 9,
+    "kind": "video",
+    "src": "assets/projects/douyin-camping/9.mp4",
+    "poster": "assets/projects/douyin-camping/9-poster.webp",
+    "width": 1520,
+    "height": 1080
+  },
+  {
+    "number": 10,
+    "kind": "image",
+    "src": "assets/projects/douyin-camping/10.webp",
+    "width": 1920,
+    "height": 2108
+  },
+  {
+    "number": 11,
+    "kind": "image",
+    "src": "assets/projects/douyin-camping/11.webp",
+    "width": 1920,
+    "height": 1348
+  },
+  {
+    "number": 12,
+    "kind": "image",
+    "src": "assets/projects/douyin-camping/12.webp",
+    "width": 1920,
+    "height": 1833
+  },
+  {
+    "number": 13,
+    "kind": "image",
+    "src": "assets/projects/douyin-camping/13.webp",
+    "width": 1920,
+    "height": 861
+  }
+]

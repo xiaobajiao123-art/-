@@ -1,0 +1,101 @@
+[
+  {
+    "number": "1",
+    "kind": "image",
+    "src": "assets/projects/douyin-worldcup/1.webp",
+    "width": 2400,
+    "height": 2080
+  },
+  {
+    "number": "2",
+    "kind": "image",
+    "src": "assets/projects/douyin-worldcup/2.webp",
+    "width": 2400,
+    "height": 1094
+  },
+  {
+    "number": "3",
+    "kind": "image",
+    "src": "assets/projects/douyin-worldcup/3.webp",
+    "width": 2400,
+    "height": 1250
+  },
+  {
+    "number": "4",
+    "kind": "image",
+    "src": "assets/projects/douyin-worldcup/4.webp",
+    "width": 2400,
+    "height": 1610
+  },
+  {
+    "number": "5",
+    "kind": "image",
+    "src": "assets/projects/douyin-worldcup/5.webp",
+    "width": 2400,
+    "height": 749
+  },
+  {
+    "number": "6-1",
+    "kind": "image",
+    "src": "assets/projects/douyin-worldcup/6-1.webp",
+    "width": 1434,
+    "height": 1709
+  },
+  {
+    "number": "6-2",
+    "kind": "animation",
+    "src": "assets/projects/douyin-worldcup/6-2.gif",
+    "width": 640,
+    "height": 854,
+    "frames": 29
+  },
+  {
+    "number": "7",
+    "kind": "image",
+    "src": "assets/projects/douyin-worldcup/7.webp",
+    "width": 2400,
+    "height": 702
+  },
+  {
+    "number": "8",
+    "kind": "image",
+    "src": "assets/projects/douyin-worldcup/8.webp",
+    "width": 2400,
+    "height": 3677
+  },
+  {
+    "number": "9",
+    "kind": "image",
+    "src": "assets/projects/douyin-worldcup/9.webp",
+    "width": 2400,
+    "height": 717
+  },
+  {
+    "number": "10",
+    "kind": "image",
+    "src": "assets/projects/douyin-worldcup/10.webp",
+    "width": 2400,
+    "height": 3683
+  },
+  {
+    "number": "11",
+    "kind": "image",
+    "src": "assets/projects/douyin-worldcup/11.webp",
+    "width": 2400,
+    "height": 738
+  },
+  {
+    "number": "12",
+    "kind": "image",
+    "src": "assets/projects/douyin-worldcup/12.webp",
+    "width": 2400,
+    "height": 3678
+  },
+  {
+    "number": "13",
+    "kind": "image",
+    "src": "assets/projects/douyin-worldcup/13.webp",
+    "width": 2400,
+    "height": 1410
+  }
+]

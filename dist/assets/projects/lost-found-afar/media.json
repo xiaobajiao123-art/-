@@ -1,0 +1,114 @@
+[
+  {
+    "number": 1,
+    "kind": "image",
+    "src": "assets/projects/lost-found-afar/1.webp",
+    "width": 1230,
+    "height": 1016
+  },
+  {
+    "number": "1-video",
+    "kind": "youtube",
+    "id": "NqgOBOzhVcA",
+    "width": 16,
+    "height": 9
+  },
+  {
+    "number": 2,
+    "kind": "image",
+    "src": "assets/projects/lost-found-afar/2.webp",
+    "width": 1242,
+    "height": 1754
+  },
+  {
+    "number": 3,
+    "kind": "image",
+    "src": "assets/projects/lost-found-afar/3.webp",
+    "width": 1242,
+    "height": 1754
+  },
+  {
+    "number": 4,
+    "kind": "image",
+    "src": "assets/projects/lost-found-afar/4.webp",
+    "width": 1242,
+    "height": 1754
+  },
+  {
+    "number": 5,
+    "kind": "image",
+    "src": "assets/projects/lost-found-afar/5.webp",
+    "width": 1242,
+    "height": 1754
+  },
+  {
+    "number": 6,
+    "kind": "image",
+    "src": "assets/projects/lost-found-afar/6.webp",
+    "width": 1242,
+    "height": 1754
+  },
+  {
+    "number": 7,
+    "kind": "image",
+    "src": "assets/projects/lost-found-afar/7.webp",
+    "width": 1242,
+    "height": 1754
+  },
+  {
+    "number": 8,
+    "kind": "image",
+    "src": "assets/projects/lost-found-afar/8.webp",
+    "width": 1242,
+    "height": 1754
+  },
+  {
+    "number": 9,
+    "kind": "image",
+    "src": "assets/projects/lost-found-afar/9.webp",
+    "width": 1242,
+    "height": 1754
+  },
+  {
+    "number": 10,
+    "kind": "image",
+    "src": "assets/projects/lost-found-afar/10.webp",
+    "width": 1242,
+    "height": 1754
+  },
+  {
+    "number": 11,
+    "kind": "image",
+    "src": "assets/projects/lost-found-afar/11.webp",
+    "width": 1242,
+    "height": 1754
+  },
+  {
+    "number": 12,
+    "kind": "image",
+    "src": "assets/projects/lost-found-afar/12.webp",
+    "width": 1242,
+    "height": 1754
+  },
+  {
+    "number": 13,
+    "kind": "image",
+    "src": "assets/projects/lost-found-afar/13.webp",
+    "width": 1242,
+    "height": 1754
+  },
+  {
+    "number": 14,
+    "kind": "image",
+    "src": "assets/projects/lost-found-afar/14.webp",
+    "width": 1242,
+    "height": 1754
+  },
+  {
+    "number": 15,
+    "kind": "image",
+    "src": "assets/projects/lost-found-afar/15.webp",
+    "width": 1242,
+    "height": 1754
+  }
+]
