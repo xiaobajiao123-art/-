@@ -111,7 +111,7 @@ const projects=[
   },
   {
     "id": "illustration-library",
-    "title": "插画库",
+    "title": "抖音插画库",
     "category": "插画设计 / 视觉资产",
     "description": "角色、场景与视觉元素的插画资产设计。",
     "href": "project-illustration.html",
