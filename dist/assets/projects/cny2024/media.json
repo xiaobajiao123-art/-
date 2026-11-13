@@ -57,6 +57,27 @@
   },
   {
     "number": 10,
+    "kind": "image",
+    "src": "assets/projects/cny2024/10-image.webp",
+    "width": 2400,
+    "height": 1623
+  },
+  {
+    "number": 11,
+    "kind": "image",
+    "src": "assets/projects/cny2024/11-image.webp",
+    "width": 2400,
+    "height": 1371
+  },
+  {
+    "number": 12,
+    "kind": "image",
+    "src": "assets/projects/cny2024/12-image.webp",
+    "width": 2400,
+    "height": 1371
+  },
+  {
+    "number": 10,
     "kind": "video",
     "src": "assets/projects/cny2024/10.mp4",
     "poster": "assets/projects/cny2024/10-poster.webp",
