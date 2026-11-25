@@ -11,7 +11,7 @@ const projects=[
   },
   {
     "id": "lost-found-afar",
-    "title": "AI动画短片工业化制作 Workflow & Asset Bible 建设方案",
+    "title": "获奖AI短片",
     "category": "AI 短片 / 影像叙事",
     "description": "远方的失物 AI 动画短片与创作工作流。",
     "href": "project-lost-found.html",
