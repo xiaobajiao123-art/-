@@ -1,5 +1,12 @@
 [
   {
+    "number": 0,
+    "kind": "image",
+    "src": "assets/projects/lost-found-afar/gallery-intro.webp",
+    "width": 2400,
+    "height": 1204
+  },
+  {
     "number": 1,
     "kind": "image",
     "src": "assets/projects/lost-found-afar/1.webp",
